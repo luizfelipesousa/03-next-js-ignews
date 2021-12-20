@@ -1,0 +1,17 @@
+.subscribe {
+  background: var(--yellow-500);
+  border: 0;
+  font-weight: bold;
+  width: 268px;
+  height: 4rem;
+  font-size: 1.25rem;
+  color: var(--gray-900);
+  border-radius: 4rem;
+  cursor: pointer;
+
+  transition: filter 0.2s;
+
+  &:hover {
+    filter: brightness(0.8);
+  }
+}
