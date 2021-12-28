@@ -37,11 +37,11 @@ Na segunda etapa do módulo foram apresentadas e aplicadas as seguintes features
 - Monitoramento de eventos através de webhooks utilizando o [Stripe CLI](https://stripe.com/docs/cli)
   -- salvar informações das assinaturas efetuadas pelos usuários que se cadastraram na aplicação
 
-## Pendências
+- Integração com as APIs do CMS [Prismic](https://prismic.io/)
 
-- Criar as regras que permitem os assinantes acessarem completamente os posts.
-- Criar os componentes de posts e subscrição
-- Consumir a API que irá gerar conteúdo
+- Páginas de Posts e Preview
+
+- Regras de redirecionamento para usuários não logados ou sem assinatura.
 
 ## Executando
 
@@ -65,6 +65,8 @@ Abra [http://localhost:3000](http://localhost:3000) no seu navegador para ver o 
 ![Home Page](/public/images/home-page.png "Home Page")
 ![Github Auth](/public/images/git-auth.png "Github Auth")
 ![Stripe Gateway](/public/images/stripe-pay.png "Stripe Gateway")
+![Posts](/public/images/posts.png "Not Found Posts")
+![Preview Posts](/public/images/preview.png "Not Found Posts")
 ![Not Found Posts](/public/images/not-found.png "Not Found Posts")
 
 _keep learning..._
